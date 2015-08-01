@@ -1,0 +1,4 @@
+[.emacs.d]
+checkout = git clone --recursive https://github.com/syl20bnr/spacemacs .emacs.d
+update = git pull --ff-only && git submodule update --init --recursive
+push = :
